@@ -1,0 +1,82 @@
+version: "2.0"
+
+stories:
+- story: who i am
+  steps:
+    - intent: bot_provide_menu
+    - action: utter_provide_service_menu
+    - action: utter_greet
+
+- story: happy path
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_great
+  - action: utter_happy
+
+- story: syntax
+  steps:
+    - intent: class_syntax
+    - action: utter_classsyntax
+
+- story: sad path 1
+  steps:
+    - intent: greet
+    - action: utter_greet
+    - intent: mood_unhappy
+    - action: utter_cheer_up
+    - action: utter_did_that_help
+    - intent: affirm
+    - action: utter_happy
+
+- story: sad path 2
+  steps:
+    - intent: greet
+    - action: utter_greet
+    - intent: mood_unhappy
+    - action: utter_cheer_up
+    - action: utter_did_that_help
+    - intent: deny
+    - action: utter_goodbye
+
+- story: oops_concepts
+  steps:
+    - intent: greet
+    - action: utter_greet
+    - intent: object_oriented_programming
+    - action: action_about_oops
+    - intent: functions_in_python
+    - action: action_function
+
+- story: method syntax
+  steps:
+    - intent: method_syntax
+    - action: utter_method_syntax
+
+- story: python
+  steps:
+    - intent: pythonlang
+    - action: utter_about_python
+
+- story: genral conept
+  steps:
+    - intent: datatypes
+    - action: alldatatypes
+
+- story: list syntax
+  steps:
+    - intent: list_syntax
+    - action: utter_list_syntax
+
+- story: dictionary syntax
+  steps:
+    - intent: dictionary_syntax
+    - action: utter_dictionary_syntax
+- story: exception handling
+  steps:
+    - intent: exception_handling
+    - action: action_exception
+    - intent: exception_syntax
+    - action: utter_exception_syntax
+
+

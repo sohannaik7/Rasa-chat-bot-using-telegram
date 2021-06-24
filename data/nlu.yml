@@ -1,0 +1,258 @@
+version: "2.0"
+
+nlu:
+- intent: greet
+  examples: |
+    - hey
+    - hello
+    - hi
+    - hello there
+    - good morning
+    - good evening
+    - moin
+    - hey there
+    - let's go
+    - hey dude
+    - goodmorning
+    - goodevening
+    - good afternoon
+
+- intent: goodbye
+  examples: |
+    - good afternoon
+    - cu
+    - good by
+    - cee you later
+    - good night
+    - bye
+    - goodbye
+    - have a nice day
+    - see you around
+    - bye bye
+    - see you later
+- intent:
+  examples: |
+    - how can you help me?
+    - how can you help?
+    - who can yu help?
+    - what can you do?
+    - what do you provide?
+
+- intent: class_syntax
+  examples: |
+    - syntax for class?
+    - syntax for object?
+    - what is the syntax for class?
+    - what is the syntax for oject?
+    - how to declare class?
+    - how to declare the object?
+
+- intent: method_syntax
+  examples: |
+    - syntax of methond?
+    - syntax of function?
+    - syntax of member function?
+    - how to declare method?
+    - how to define method?
+    - how to declare function?
+    - how to define function?
+
+- intent: affirm
+  examples: |
+    - yes
+    - y
+    - indeed
+    - of course
+    - that sounds good
+    - correct
+
+- intent: deny
+  examples: |
+    - no
+    - n
+    - never
+    - I don't think so
+    - don't like that
+    - no way
+    - not really
+
+- intent: mood_great
+  examples: |
+    - perfect
+    - great
+    - amazing
+    - feeling like a king
+    - wonderful
+    - I am feeling very good
+    - I am great
+    - I am amazing
+    - I am going to save the world
+    - super stoked
+    - extremely good
+    - so so perfect
+    - so good
+    - so perfect
+
+- intent: mood_unhappy
+  examples: |
+    - my day was horrible
+    - I am sad
+    - I don't feel very well
+    - I am disappointed
+    - super sad
+    - I'm so sad
+    - sad
+    - very sad
+    - unhappy
+    - not good
+    - not very good
+    - extremly sad
+    - so saad
+    - so sad
+
+- intent: bot_challenge
+  examples: |
+    - are you a bot?
+    - are you a human?
+
+- intent: object_oriented_programming
+  examples: |
+    - what is [class](oops)?
+    - what is meant by [class](oops)?
+    - what is [clas](oops)?
+    - what is meant by [objects](oops) in class?
+    - what is [object](oops)?
+    - what are the [objects](oops) in class?
+    - what is [object](oops) in class?
+    - what is [inheritance](oops)?
+    - what are [inheritance](oops)?
+    - what is [inherit](oops)?
+    - what are [inherit](oops)?
+    - what is [overloading](oops)?
+    - what are [overloading](oops)?
+    - what is [overload](oops)?
+    - what is [method](oops)?
+    - what are [methods](oops)?
+    - what is meant by [method](oops)?
+    - what are [metho](oops)?
+    - what is [method](oops) in class?
+    - what is [encapsulation](oops)?
+    - what are [encapsulation](oops) in class?
+    - what is meant by [encapsulation](oops)?
+    - what is [polymorphism](oops)?
+    - what are [Polymorphism](oops)?
+    - what is meant by [polymorphism](oops)?
+    - what is [polymorphism](oops) in oops?
+    - what is [ploymorphism](oops) in class?
+    - what is [polymorph](oops)?
+    - what is [abstraction](oops)?
+    - what is meant by [abstraction](oops)?
+    - what is [abstraction](oops) in class?
+    - what is [abstraction](oops) in oops?
+    - what is [data abstraction](oops)?
+    - what is meant by [data abstraction](oops)?
+    - what is [abstract](oops)?
+    - how can we achive [Constructor](oops)?
+    - what is [Constructor](oops) in class?
+    - how to define [Constructor](oops)?
+    - how to define [Constructor](oops) in class?
+    - what is [Constructor](oops)?
+    - what is meant by [Constructor](oops)?
+    - what are [types of Constructor](oops)?
+    - [types of Constructor](oops)?
+    - what are [Parameterized](oops) Constructor?
+    - what is [Parameterized](oops) Constructor?
+    - what is [Non-parameterized](oops) Constructor?
+    - how to [define Constructor](oops)?
+    - [syntax of constructor](oops)
+
+- intent: functions_in_python
+  examples: |
+    - what is [function](function)?
+    - what are [function](function)?
+    - what is meant by [function](function)?
+    - what is [static](function) method?
+    - what is [class method](function)?
+
+- intent: method_syntax
+  examples: |
+    - syntax for method?
+    - syntax for function?
+    - syntax for metho?
+    - syntax for functions?
+    - how to define method?
+    - how to declare method?
+    - how to define function?
+    - how to declare function?
+    
+- intent: list_syntax
+  examples: |
+    - syntax for list?
+    - syntax of list?
+    - how to define list?
+    - how to declare list?
+
+- intent: dictionary_syntax
+  examples: |
+    - syntax of dictionary?
+    - syntax for dictionary?
+    - how to define dictionary?
+    - how to declare dictionary?
+
+- intent: exception_handling
+  examples: |
+    - what is [exception](exception)?
+    - what is [exceptions](exception)?
+    - what is meant by [exception](exception)?
+    - what is [try](exception)?
+    - what is meant by [try](exception) in exception?
+    - what is meant by [try](exception) in exception?
+    - what is [except](exception)?
+    - what are [except](exception) in exception
+    - what are [try](exception) in exception?
+    - what is [catch](exception) in python?
+    - how to [catch](exception) exception?
+- intent: exception_syntax
+  examples: |
+    - how to declare exception?
+    - how to define exception?
+    - syntax of exception?
+    - syntax for try and except?
+    - syntax for exception
+
+- intent: pythonlang
+  examples: |
+      - what is python?
+      - what is meant by python?
+      - tell me about python?
+      - what can i know about python?
+      - history about python?
+      - history on python?
+
+
+
+- intent: datatypes
+  examples: |
+    - what is [integer](datatypepython)?
+    - what is [string](datatypepython)?
+    - what is [float](datatypepython)?
+    - how to take [input](datatypepython)?
+    - how to [print](datatypepython) output?
+    - how to [output](datatypepython)?
+    - how to [input](datatypepython)?
+    - what is [datatype](datatypepython)?
+    - what are the [datatypes](datatypepython)?
+    - what is [variable](datatypepython)?
+    - how to decalre [variable](datatypepython)?
+    - what is [operator](datatypepython)?
+    - what is meant by [operator](datatypepython)?
+    - what is [branching](datatypepython)?
+    - what is [if](datatypepython)?
+    - what is [else](datatypepython)?
+    - what are [loops](datatypepython)?
+    - what is [loop](datatypepython)?
+    - what is [for](datatypepython)?
+    - what is meant by [for](datatypepython)loop?
+    - what is [while](datatypepython)?
+    - what are the [while](datatypepython)statements?
+    - what are [dowhile](datatypepython)loop?

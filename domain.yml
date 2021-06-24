@@ -1,0 +1,83 @@
+version: "2.0"
+intents:
+  - greet
+  - goodbye
+  - affirm
+  - deny
+  - mood_great
+  - mood_unhappy
+  - bot_challenge
+  - object_oriented_programming
+  - functions_in_python
+  - bot_provide_menu
+  - class_syntax
+  - method_syntax
+  - list_syntax
+  - dictionary_syntax
+  - exception_handling
+  - exception_syntax
+  - datatypes
+  - pythonlang
+
+actions:
+  - action_about_oops
+  - action_function
+  - action_exception
+  - alldatatypes
+
+entities:
+  - oops
+  - function
+  - exception
+  - datatypepython
+
+responses:
+  utter_greet:
+  - text: "Hey! How are you?"
+
+  utter_cheer_up:
+  - text: "Here is something to cheer you up:"
+    image: "https://i.imgur.com/nGF1K8f.jpg"
+
+  utter_did_that_help:
+  - text: "Did that help you?"
+
+  utter_happy:
+  - text: "Great, carry on!"
+
+  utter_goodbye:
+  - text: "Bye"
+
+  utter_iamabot:
+  - text: "I am a bot, powered to teach you python for placement, i'm part of training session, what do want to learn???."
+
+  utter_about_python:
+    - text: "Python is an interpreted high-level general-purpose programming language. Python's design philosophy emphasizes code readability with its notable use of significant indentation"
+      image: "https://hackernoon.com/images/ol2223xwm.jpg"
+
+  utter_classsyntax:
+  - text: "here is the syntax for class and objects"
+    image: "https://www.journaldev.com/wp-content/uploads/2017/12/python-class-self.png"
+
+  utter_provide_service_menu:
+  - text: "Hello there my user, here i'm bot created to teach you a python basics,you can ask anything like OOPS, funnctions and many, this bot if for make you learn some part of subject in short duration, you can call it as Crash cource "
+    image: "https://www.google.com/url?sa=i&url=https%3A%2F%2Fnordicapis.com%2Fcreate-a-weather-bot-in-telegram-using-python%2F&psig=AOvVaw1faB25HjRFcLHCk6fHiSEH&ust=1622950666441000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCKCQl8rI__ACFQAAAAAdAAAAABAE"
+
+  utter_method_syntax:
+  - text: "Here is how we declare"
+    image: "https://3.bp.blogspot.com/-os6PuWXP9tM/WmNW7GqsXgI/AAAAAAAAAzA/JGLSWDDCxn00d_H1EKfsy6L3RuCST90HQCLcBGAs/s1600/2.PNG"
+
+  utter_list_syntax:
+  - text: "This is how we declare the List in python"
+    image: "https://csharpcorner-mindcrackerinc.netdna-ssl.com/UploadFile/131ec5/jump-start-with-python-part-6/Images/Creating%20List.png"
+
+  utter_dictionary_syntax:
+  - text: "This is how we declare the Dictionary in python"
+    image: "https://www.tutorialgateway.org/wp-content/uploads/Python-Dictionary-items-1.png"
+
+  utter_exception_syntax:
+  - text: " Here is the syntax for exception, as in other language we say try and catch, here we call that as except"
+    image: "https://hub.packtpub.com/wp-content/uploads/2019/12/image4.png"
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true
